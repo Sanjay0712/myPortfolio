@@ -20,6 +20,12 @@ const App = () => {
           {/* <StarsCanvas /> */}
         </div>
       </div>
+      <div className="flex justify-center social-media bg-primary">
+          <a href="#"><i className='bx bxl-facebook'></i></a>
+          <a href="#"><i className='bx bxl-twitter'></i></a>
+          <a href="#"><i className='bx bxl-instagram-alt'></i></a>
+          <a href="https://www.linkedin.com/in/sanjay-kumar-54b675160/" target="_blank"><i className='bx bxl-linkedin'></i></a>
+      </div> 
     </Router>
   )
 }

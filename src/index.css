@@ -13,6 +13,13 @@
   color-scheme: dark;
 }
 
+:root {
+  --bg-color: rgb(52, 52, 76);
+  --second-bg-color: rgb(61, 61, 89);
+  --text-color: white;
+  --main-color: rgb(19, 96, 211);
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
@@ -201,4 +208,25 @@
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
+}
+
+.social-media a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: 2rem solid var(--main-color);
+  border-radius: 50%;
+  font-size: 2.5rem;
+  color: rgb(18, 20, 21);
+  margin: 3rem 1.5rem 3rem 0;
+  transition: .5s ease;
+}
+
+.social-media a:hover {
+  background: var(--main-color);
+  color: var(--second-bg-color);
+  box-shadow: 0 0 1rem var(--main-color);
 }
