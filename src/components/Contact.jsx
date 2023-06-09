@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import SectionWrapper from "../hoc/SectionWrapper";
 import { slideIn } from "../utils/motion";
-import resume from '../assets/SanjayKumarResume.pdf';
+import resume from '../assets/SanjayKumar_Resume.pdf';
 import env from '../assets/env.svg';
 import phn from '../assets/phn.svg'
 
