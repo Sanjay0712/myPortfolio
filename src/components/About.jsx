@@ -66,7 +66,7 @@ const About = () => {
                 }}
                 className='bg-tertiary rounded-[40%] py-1 px-9 min-h-[250px] flex justify-evenly items-center flex-col '
               >
-                <img src={pic} alt="Sanjay" className='w-70 h-70 object-contain rounded-[30%]' />
+                <img src={pic} alt="Sanjay" className='w-100 h-70 object-contain rounded-[45%]' />
               </div>
             </motion.div>
           </Tilt>
