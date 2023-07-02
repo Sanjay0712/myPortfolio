@@ -109,9 +109,7 @@ const Contact = () => {
             </button>
           </div>
 
-        </form> <br /> <br />
-        <p className="flex gap-10" style={{fontSize: "15px"}}> <img src={env} alt="envelope" width="5%" height="3%" className="violet-gradient ml-3 object-contain" /> sanjaydevan07@gmail.com</p> <br /> 
-        <p className="flex gap-10" style={{fontSize: "15px"}}> <img src={phn} alt="phone" width="5%" height="3%" className="violet-gradient ml-3" /> 9080981973</p>
+        </form>
       </motion.div>
 
       <motion.div
