@@ -109,7 +109,7 @@ const Contact = () => {
             </button>
           </div>
 
-        </form>
+        </form> <br />
       </motion.div>
 
       <motion.div
