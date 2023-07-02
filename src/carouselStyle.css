@@ -31,6 +31,20 @@
   transform-style: preserve-3d;
 }
 
+@media screen and (max-width: 650px) {
+  .carousel {
+    position: relative;
+    width: 26rem;
+    height: var(card-size);
+    perspective: 500px;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:150px;
+  }
+}
+
 .card-container {
   position: absolute;
   width: 100%;
@@ -95,4 +109,20 @@
   top: -20px;
   left: 150px;
   transform: translateX(100%) translatey(-50%);
+}
+
+@media screen and (max-width: 650px) {
+  .left {
+    position: absolute;
+    top: -20px;
+    left: 100px;
+    transform: translateX(-100%) translatey(-50%);
+  }
+  
+  .right {
+    position: absolute;
+    top: -20px;
+    left: 100px;
+    transform: translateX(100%) translatey(-50%);
+  }
 }
