@@ -24,7 +24,7 @@ const Carousel = ({children}) => {
   const count = React.Children.count(children);
   
   return (
-    <div className='carousel'>
+    <div className='carousel flex justify-center '>
       {active > 0 && <button className='left' onClick={() => setActive(i => i - 1)}><TiChevronLeftOutline/></button>}
       {React.Children.map(children, (child, i) => (
         <div className='card-container' style={{
@@ -53,7 +53,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full '
+        className='bg-tertiary p-5 rounded-2xl xs:w-[200px] sm:w-[360px] w-full '
       >
           <div className='relative w-full h-[230px]'>
             <img src={image} alt={name} className='w-full h-full object-contain rounded-2xl ' />
@@ -70,7 +70,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
 
           <div className='mt-5'>
             <h3 className='text-white font-bold text-[24px]  ' >{name}</h3>
-            <p className=' mt-2 text-secondary text-[14px] ' > {description} </p>
+            <p className=' mt-2 text-secondary text-[14px] hidden sm:block ' > {description} </p>
           </div>
 
           <div className=' mt-4 flex flex-wrap gap-2 ' >
@@ -93,7 +93,7 @@ const Works = () => {
         <h2 style={{textAlign: "center", margin: "20px"}} className={styles.sectionHeadText}>Projects</h2>
       </motion.div>
 
-      <div className='w-full flex ml-40 mb-10' style={{textAlign: "center"}}>
+      <div className='w-full flex xl:ml-[180px] lg:ml-[120px] mb-10 md:ml-[20px] sm:ml-[20px] xs:ml-[23px]' style={{textAlign: "center"}}>
         <motion.p 
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
