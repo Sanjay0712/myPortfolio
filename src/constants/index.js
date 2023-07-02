@@ -29,6 +29,7 @@ import shoppingCart from '../assets/shoppingCart.png';
 import airbnb from '../assets/airbnb.png';
 import snake from '../assets/snake.png';
 import quiz from '../assets/quiz.png';
+import begin from '../assets/begin.png';
   
   export const navLinks = [
     {
@@ -338,6 +339,27 @@ import quiz from '../assets/quiz.png';
       ],
       image: quiz,
       source_code_link: "https://sanjay0712.github.io/Quiz-App/",
+    },
+    {
+      name: "Beginner Projects",
+      description:
+        "A platform for web developers to build their career with beginner level projects",
+      tags: [
+        {
+          name: "Html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: begin,
+      source_code_link: "https://sanjay0712.github.io/Beginner-Projects/",
     },
   ];
   
