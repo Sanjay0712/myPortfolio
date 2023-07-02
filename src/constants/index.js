@@ -26,6 +26,9 @@ import avp from "../assets/company/avp.jpg";
 import reactMovieApp from '../assets/reactMovieApp.png';
 import expenseTracker from '../assets/expenseTracker.png';
 import shoppingCart from '../assets/shoppingCart.png';
+import airbnb from '../assets/airbnb.png';
+import snake from '../assets/snake.png';
+import quiz from '../assets/quiz.png';
   
   export const navLinks = [
     {
@@ -268,6 +271,73 @@ import shoppingCart from '../assets/shoppingCart.png';
       ],
       image: expenseTracker,
       source_code_link: "https://sanjay0712.github.io/ExpenseTracker/",
+    },
+    {
+      name: "Airbnb Clone",
+      description:
+        "An app to book or rent rooms, homes and residencies",
+      tags: [
+        {
+          name: "ReactJs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Next JS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: airbnb,
+      source_code_link: "https://residencybook.vercel.app/",
+    },
+    {
+      name: "Snake Game",
+      description:
+        "A most celebrated game of 90's kid in the Nokia 1100",
+      tags: [
+        {
+          name: "Html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Canvas",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: snake,
+      source_code_link: "https://sanjay0712.github.io/SnakeGame/",
+    },
+    {
+      name: "Quiz App",
+      description:
+        "A beginner friendly app to test your capablities",
+      tags: [
+        {
+          name: "Html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: quiz,
+      source_code_link: "https://sanjay0712.github.io/Quiz-App/",
     },
   ];
   
