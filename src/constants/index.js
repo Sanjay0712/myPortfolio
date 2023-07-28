@@ -30,6 +30,7 @@ import airbnb from '../assets/airbnb.png';
 import snake from '../assets/snake.png';
 import quiz from '../assets/quiz.png';
 import begin from '../assets/begin.png';
+import dribble from '../assets/dribble.png';
   
   export const navLinks = [
     {
@@ -272,6 +273,31 @@ import begin from '../assets/begin.png';
       ],
       image: expenseTracker,
       source_code_link: "https://sanjay0712.github.io/ExpenseTracker/",
+    },
+    {
+      name: "Dribble Clone",
+      description:
+        "An app for creatives to share their projects and get hired",
+      tags: [
+        {
+          name: "ReactJs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Next JS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Grafbase",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: dribble,
+      source_code_link: "https://flexibblesanjayclone.vercel.app/",
     },
     {
       name: "Airbnb Clone",
