@@ -20,7 +20,7 @@ import {
 import c from "../assets/tech/c.png";
 import java from "../assets/tech/java.png";
 import excel from "../assets/tech/excel.png";
-import tt from "../assets/company/T.png";
+import tt from "../assets/company/ttt.png";
 import klogo from "../assets/company/klogo.png";
 import infant from "../assets/company/infant.png";
 import avp from "../assets/company/avp.jpg";
