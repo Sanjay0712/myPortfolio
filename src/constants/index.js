@@ -16,6 +16,7 @@ import {
     threejs,
   } from "../assets";
 
+
 import c from "../assets/tech/c.png";
 import java from "../assets/tech/java.png";
 import excel from "../assets/tech/excel.png";
