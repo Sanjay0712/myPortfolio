@@ -135,18 +135,19 @@ import dribble from '../assets/dribble.png';
   
   const experiences = [
     {
-      title: "Programmer Analyst",
-      company_name: "Cognizant",
+      title: "Full stack developer",
+      company_name: "Thedush Robotics",
       icon: cts,
       iconBg: "#E6DEDD",
-      date: "June 2023 - Present",
+      date: "June 2021 - Present",
       points: [
-        "Developing and maintaining financial planning and budgeting enterprise application of Oracle Hyperion (EPM). Developing Hyperion Planning environments, including outlines, load rules, calculation scripts, partitions, web forms and security, system testing, and training of end-user and Client support teams",
-        "Collaborating with cross-functional teams including consultants, cloud admins, and other finance teams to create and maintain robust and sustainable enterprise application",
-        "Performing monthly maintenance activities for the financial close periods and maintaining historical data for planning and budgeting solution",
-        "Helping organization understand their data and use it to make better business decisions.",
-        "Enhancing existing EPM functionalities, Performing admin activities like granting access and dealing with data validations",
-        "Possessing Knowledge of the application of better practices within performance reporting and planning process areas"
+        "I create exciting projects at the intersection of technology and robots. My primary focus is building web projects and software that connect users with robots. With expertise in Tailwind CSS, Material UI, React.js, Redux Toolkit, Angular.js, Node.js, MongoDB, SQL, Prisma, Git, GitHub, and even some C#, I bring these projects to life.",
+        "User-Friendly Interfaces: I design interfaces that make interacting with robots a breeze, using tools like Tailwind CSS and Material UI",
+        "Tech and Logic: I build behind-the-scenes using React.js, Redux Toolkit, Angular.js, Node.js, and databases like MongoDB and SQL to ensure smooth user-robot interactions.",
+        "Versatile Toolkit: With Prisma, C#, Git, and GitHub, I streamline processes and collaborate effectively, while my C# expertise adds an extra layer of versatility to my projects",
+        "I thrive on finding innovative solutions for robotics challenges, making sure our projects shine",
+        "As Robotics tech evolves, I'm committed to staying updated, ensuring our projects stay cutting-edge",
+        "I excel in team settings, blending my technical skills with effective communication to bring out the best in collaborations",
       ],
     },
     {
