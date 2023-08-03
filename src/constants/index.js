@@ -20,7 +20,7 @@ import {
 import c from "../assets/tech/c.png";
 import java from "../assets/tech/java.png";
 import excel from "../assets/tech/excel.png";
-import tt from "../assets/company/ttt.jpg";
+import cts from "../assets/company/cts.png";
 import klogo from "../assets/company/klogo.png";
 import infant from "../assets/company/infant.png";
 import avp from "../assets/company/avp.jpg";
@@ -137,7 +137,7 @@ import dribble from '../assets/dribble.png';
   const experiences = [
     {
       title: "Full stack developer",
-      company_name: "Thedush Robotics",
+      company_name: "Cognizant",
       icon: tt,
       iconBg: "#E6DEDD",
       date: "June 2021 - Present",
