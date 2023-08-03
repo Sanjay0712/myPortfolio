@@ -138,7 +138,7 @@ import dribble from '../assets/dribble.png';
     {
       title: "Full stack developer",
       company_name: "Cognizant",
-      icon: tt,
+      icon: cts,
       iconBg: "#E6DEDD",
       date: "June 2021 - Present",
       points: [
