@@ -140,7 +140,7 @@ import dribble from '../assets/dribble.png';
       company_name: "Cognizant",
       icon: cts,
       iconBg: "#E6DEDD",
-      date: "June 2021 - Present",
+      date: "October 2021 - Present",
       points: [
         "2+ years in Enterprise Performance Management (EPM) products as a Techno-Functional consultant primarily in EPBCS (cloud).",
         "Worked extensively on Hyperion planning (EPBCS), Data Management, Oracle MyServices, Excel, SmartView, AWS S3 bucket (VDI), AWS EC2 instances and Service café (Ticket management tool).",
